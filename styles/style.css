@@ -1,0 +1,38 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(50, 100, 84);
+}
+
+body{
+    background-color: bisque;
+}
+
+img{
+    width: 20%;
+    margin: auto;
+}
+
+.centered
+{
+    width: 50%;
+    margin: auto;
+}
+
+.description{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.infos{
+    text-align: center;
+    list-style: inside;
+}
+
+.thumbnail{
+    height: 100px;
+    width: auto;
+}
+
+.recipe-content div{
+    background-color:honeydew;
+}
