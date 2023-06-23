@@ -9,28 +9,9 @@ body{
     background-color: #fffaf0;
 }
 
-img{
-    width: 500px;
-    margin: 0 auto;
-    vertical-align: top;
-}
-
-.centered
-{
-    margin: 20px auto;
-}
-
-.description{
-    font-style: italic;
-    font-weight: bold;
-    width: 80%;
-    text-align: center;
-}
-
-.header{
-    width: 1150px;
-    text-align: center;
-    margin: 0px 20px;
+.menu{
+    width: fit-content;
+    margin: 50px auto;
 }
 
 .thumbnail{
@@ -38,28 +19,24 @@ img{
     width: auto;
 }
 
-.recipe-content div{
-    /*background-color:honeydew;*/
+.centered
+{
+    margin: 20px auto;
 }
-*/
-/* *************************************** */
 
-
-.header div{
+.header{
+    width: 1150px;
+    text-align: center;
+    margin: 0px 20px;
     font-weight: bold;
 }
 
 .cost{
     display: inline-block;
     width: 10%;
-    font-weight: bold;
 }
 
-.cost p{
-
-}
-
-div.title{
+.title{
     display: inline-block;
     width: 80%;
     margin: 20px 0px;
@@ -67,11 +44,11 @@ div.title{
 
 h1{
     font-size: 50px;
+    text-align: center;
 }
 
 .difficulty{
     display: inline-block;
-    font-weight: bold;
     width: 10%;
 }
 
@@ -84,11 +61,14 @@ h1{
     padding: 0px 10px;
 }
 
-.right{
-    vertical-align: top;
+.ingredients{
     display: inline-block;
-    width: 500px;
-    margin: 0 auto;
+    width: 50%;
+    font-size: 14px;
+}
+
+.ingredients li{
+    margin: 5px 0;
 }
 
 .infos{
@@ -103,16 +83,6 @@ h1{
     list-style-type: none;
 }
 
-.ingredients{
-    display: inline-block;
-    width: 50%;
-    font-size: 14px;
-}
-
-.ingredients li{
-    margin: 5px 0;
-}
-
 .steps{
     width: 70%;
     text-align: justify;
@@ -123,7 +93,28 @@ h1{
     margin: 10px 0;
 }
 
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.right img{
+    width: 500px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.description{
+    font-style: italic;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+}
+
 .left a{
     display: block;
-    padding: 50px 0px;
+    margin: 50px 0px;
+    width: fit-content;
 }
