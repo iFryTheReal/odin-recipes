@@ -5,6 +5,7 @@ My very first webpage created for The Odin Project Foundations course.
 ## Features
 
 - Basic HTML structure
+- Basic CSS
 
 ## What I Learned
 
