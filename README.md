@@ -12,3 +12,4 @@ My very first webpage created for The Odin Project Foundations course.
 - HTML fundamentals
 - Git/GitHub workflow
 - Project structure
+- CSS fundamentals
